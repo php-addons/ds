@@ -1,0 +1,34 @@
+{
+    "name": "php-addons/ds",
+    "license": "MIT",
+    "keywords": ["php", "ds", "data structures", "polyfill"],
+    "authors": [
+        {
+            "name": "Vyacheslav Startsev",
+            "email": "vyacheslav.startsev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "php-ds/php-ds": "^1.2"
+    },
+    "suggest": {
+        "ext-ds": "to improve performance and reduce memory usage"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4" : {
+            "PhpAddons\\Ds\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpAddons\\Ds\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
