@@ -12,6 +12,10 @@
         "php": ">=7.2.0",
         "php-ds/php-ds": "^1.2"
     },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^8.4"
+    },
     "suggest": {
         "ext-ds": "to improve performance and reduce memory usage"
     },
@@ -27,8 +31,5 @@
         "psr-4": {
             "PhpAddons\\Ds\\Tests\\": "tests"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.4"
     }
 }
